@@ -48,10 +48,9 @@ pip install pyinstaller
 4. Build the executable with PyInstaller:
 
 ```bash
-pyinstaller --name=vplayer --onefile --specpath=. --noparse vplayer.py
+pyinstaller vplayer.spec
 ```
->**Note:** Adjust the paths `/usr/lib64/vlc/libvlc.so` and `/usr/lib64/vlc/libvlccore.so` to your system’s VLC library locations.
-> Or just specified them in `.spec` file.
+>**Note:** Adjust the paths `/usr/lib64/vlc/libvlc.so` and `/usr/lib64/vlc/libvlccore.so` to your system’s VLC library locations, and within `vplayer.spec` accordingly.
 
 ### 2. Using prebuild binaries
 
