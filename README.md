@@ -8,6 +8,8 @@
 
 VPlayer is a sleek media player featuring audio visualization capabilities. It provides a modern way to enjoy your media files along with real-time audiovisual effects.
 
+**Please note:** I'm nothing more than python newbie and this particular application is just adaptation of my simple bash script to play music visually.
+
 ## Requirements
 
 Before installing and running VPlayer, make sure you have the following dependencies installed on your system:
