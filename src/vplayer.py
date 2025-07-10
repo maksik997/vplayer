@@ -41,7 +41,7 @@ def main():
     cava = Cava()
 
     try:
-        while player.is_running():
+        while True: # Waiting for user's interrupt
             sleep(1)
     except KeyboardInterrupt:
         cava.stop()
