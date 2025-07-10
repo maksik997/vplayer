@@ -1,6 +1,6 @@
 from typing import Final, Sequence
 
-from vlc import Instance, EventType, Event, MediaList
+from vlc import Instance, MediaList
 
 
 class Player:
